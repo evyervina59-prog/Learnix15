@@ -1,0 +1,5 @@
+{
+  "name": "Data Explorer Interaktif",
+  "description": "Sebuah aplikasi web animasi interaktif untuk mata pelajaran Informatika Fase D kelas 9, materi Analisis Data. Aplikasi ini memandu siswa melalui langkah-langkah analisis data, dari pengumpulan hingga interpretasi dengan bantuan AI.",
+  "requestFramePermissions": []
+}
