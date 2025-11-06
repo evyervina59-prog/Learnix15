@@ -8,6 +8,7 @@ import Step2_DataCleaning from './Step2_DataCleaning';
 import Step3_DataProcessing from './Step3_DataProcessing';
 import Step4_DataVisualization from './Step4_DataVisualization';
 import Step5_DataInterpretation from '../Step5_DataInterpretation';
+import Mascot from './Mascot';
 import { ArrowLeftIcon, ArrowRightIcon, ArrowPathIcon, HomeIcon } from './Icons';
 
 const STEPS = [
@@ -181,6 +182,7 @@ const InteractiveContent: React.FC = () => {
 
     return (
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <Mascot currentStep={currentStep} />
             <div className="no-print">
                 <StepTracker steps={STEPS} currentStep={currentStep} />
             </div>
